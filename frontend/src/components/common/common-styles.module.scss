@@ -1,0 +1,67 @@
+.inputControl {
+    width: 100%;
+    & > span {
+        color: #e71616;
+    }
+}
+
+.label {
+    width: 100%;
+}
+
+.labelText {
+    display: block;
+    margin: 0 100% 5px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.textInput {
+    height: 40px;
+    width: 100%;
+    padding: 0 15px 0 19px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    background-color: #f2f2f5;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color: #424242;
+
+    &:disabled {
+        background-color: #f7f7f7;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: #acacac;
+    }
+}
+
+.error {
+    border: 1px solid #e71616;
+    color: #e71616;
+    background-color: #fff;
+    &::placeholder {
+        color: #e71616;
+    }
+    &:focus {
+        color: #e71616;
+    }
+}
+
+.white {
+    background-color: #fff;
+}
+
+.gray-light {
+    background-color: #f2f2f5;
+}
+
+.gray-very-light {
+    background-color: var(--color-gray-very-light);
+}

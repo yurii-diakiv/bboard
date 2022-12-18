@@ -1,0 +1,17 @@
+.container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+
+  &__content {
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 1% 8vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

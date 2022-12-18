@@ -1,0 +1,19 @@
+:root {
+    --color-primary: #02aa2c;
+    --color-primary-light: #00d435;
+    --color-secondary-dark: #ac5dd9;
+    --color-gray: #787878;
+    --color-gray-light: #f2f2f5;
+    --color-gray-very-light: #fafafa;
+    --color-error: #e71616;
+
+    --z-index--level-two: 200;
+
+    --font-family-primary: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

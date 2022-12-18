@@ -1,0 +1,65 @@
+.card {
+    margin: 8px;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    border-radius: 5px;
+    
+    // dnd
+    cursor: move;
+
+    .header {
+        padding: 10px 10px 0px 10px;
+        display: flex;
+        align-items: center;
+
+        .title {
+            font-weight: 600;
+            width: 100%;
+            border: none;
+            outline: none;
+        }
+
+        .actions {
+            display: flex;
+            height: 35px;
+
+            .memberSelect {
+                position: absolute;
+                left: 300px;
+                background-color: white;
+                width: 150px;
+                z-index: 2;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                border-radius: 3px;
+
+                .option {
+                    height: 15px;
+                    line-height: 15px;
+                    padding: 15px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(241, 241, 241);
+                    }
+                }
+            }
+        }
+    }
+
+    .text {
+        margin: 5px 10px 10px 10px;
+        height: 60px;
+        max-height: 190px;
+        min-width: 90%;
+        max-width: 90%;
+        width: 90%;
+        // border: solid rgba(0, 0, 0, 0.2);
+        border: none;
+        outline: none;
+    }
+}
+
+.dragOpacity {
+    opacity: 0.5;
+}

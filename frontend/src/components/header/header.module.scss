@@ -1,0 +1,66 @@
+.container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background: #3F4E5D;
+    box-shadow: 0px 2px 1px rgb(191 191 191 / 25%);
+    color: white;
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        .label {
+            cursor: pointer;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .boardSelect {
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        .addBoardBtn {
+            width: 120px;
+            margin-right: 20px;
+        }
+
+        .members {
+            display: flex;
+
+            .member {
+                background: white;
+                color: black;
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+                text-align: center;
+                line-height: 35px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .userSection {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        margin-right: 60px;
+
+        .userInfo {
+            margin-right: 40px;
+        }
+    }
+}

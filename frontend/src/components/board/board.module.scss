@@ -1,0 +1,26 @@
+.container {
+    flex-grow: 1;
+    display: flex;
+    grid-gap: 20px;
+    padding: 40px;
+    overflow-x: scroll;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 70px;
+    left: 0;
+}
+
+.inlineBlock {
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.newColumn {
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    min-width: 280px;
+    background-color: var(--color-gray-very-light);
+}
